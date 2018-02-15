@@ -63,7 +63,7 @@ cleanoutput.each do |instance|
     else
       instances = set_os('c5.xlarge', instance['kernel'].to_s, instances)
     end
-  when 8201..16200
+  when 8201..16400
     case instance['processors'].to_i
     when 0..4
       instances = set_os('m5.xlarge',instance['kernel'].to_s, instances)
@@ -71,10 +71,10 @@ cleanoutput.each do |instance|
       instances = set_os('c5.2xlarge',instance['kernel'].to_s, instances)
     end
     # either m5.xlarge or c5.2xlarge
-  when 16201..34000
+  when 16401..3300
     # m5.2xlarge
     instances = set_os('m5.2xlarge',instance['kernel'].to_s, instances)
-  when 34001..66000
+  when 33001..66000
     # m5.4xlarge
     instances = set_os('m5.4xlarge',instance['kernel'].to_s, instances)
   else
