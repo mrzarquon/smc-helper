@@ -1,3 +1,5 @@
+#!/opt/puppetlabs/puppet/bin/ruby
+
 require 'json'
 require 'securerandom'
 
