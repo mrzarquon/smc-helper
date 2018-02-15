@@ -8,4 +8,4 @@ puppetdb.json is just a cleaned record of your puppetdb data (certnames obfuscat
 
 Instances.json is an attempt to map that above record to various EC2 sizes / types to aid in filling out the AWS Simple Monthly Calculator.
 
-From the server running PuppetDB, you create a folder, put dump.sh and pdb_dump_clean.rb in it, and run dump.sh then pdb_dump_clean.rb, and you should get the two resulting files. Included in this gist is example output also.
+From the server running PuppetDB, you clone this repo, put dump.sh and pdb_dump_clean.rb in it, and run dump.sh then pdb_dump_clean.rb, and you should get the two resulting files. The examples folder contains output from a test run of this script for your reference.
