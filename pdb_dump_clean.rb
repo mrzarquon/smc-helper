@@ -55,16 +55,16 @@ end
 
 
 cleanoutput.each do |instance|
-  case instance['memory'].to_int
+  case instance['memory'].to_i
   when 0..8200
-    case instance['processors'].to_int
+    case instance['processors'].to_i
     when 0..2
       instances = set_os('c4.large',instance['kernel'].to_s, instances)
     else
       instances = set_os('c5.xlarge', instance['kernel'].to_s, instances)
     end
   when 8201..16200
-    case instance['processors'].to_int
+    case instance['processors'].to_i
     when 0..4
       instances = set_os('m5.xlarge',instance['kernel'].to_s, instances)
     else
