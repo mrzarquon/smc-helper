@@ -1,0 +1,38 @@
+[
+  {
+    "record": "d0b46b00-1732-42c5-88fd-e85f0b8f0016",
+    "memory": 3765.47265625,
+    "processors": 2,
+    "kernel": "Linux"
+  },
+  {
+    "record": "c9b0d419-ce91-4ef1-ad3a-222bc1ec0459",
+    "memory": 3853.58984375,
+    "processors": 2,
+    "kernel": "windows"
+  },
+  {
+    "record": "ff0469fc-240a-44e8-90f6-2acdf3f53df6",
+    "memory": 3853.58984375,
+    "processors": 2,
+    "kernel": "windows"
+  },
+  {
+    "record": "c26a6519-c81e-4402-be41-76256d01fb27",
+    "memory": 16383.609375,
+    "processors": 4,
+    "kernel": "windows"
+  },
+  {
+    "record": "fcb18357-bd91-49c2-8599-c84d58a4e6ff",
+    "memory": 3853.58984375,
+    "processors": 2,
+    "kernel": "windows"
+  },
+  {
+    "record": "bf514499-dd69-43c1-abf9-62e646e98cf2",
+    "memory": 16383.609375,
+    "processors": 4,
+    "kernel": "windows"
+  }
+]

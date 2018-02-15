@@ -1,0 +1,16 @@
+{
+  "c4.large.linux": 1,
+  "c5.xlarge.linux": 0,
+  "m5.xlarge.linux": 0,
+  "m5.2xlarge.linux": 0,
+  "c5.2xlarge.linux": 0,
+  "m5.4xlarge.linux": 0,
+  "m5.12xlarge.linux": 0,
+  "c4.large.windows": 3,
+  "c5.xlarge.windows": 0,
+  "m5.xlarge.windows": 0,
+  "m5.2xlarge.windows": 2,
+  "c5.2xlarge.windows": 0,
+  "m5.4xlarge.windows": 0,
+  "m5.12xlarge.windows": 0
+}
